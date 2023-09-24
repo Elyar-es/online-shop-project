@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="General.SearchPane">
+   <children>
+      <ImageView fx:id="searchBTN" fitHeight="22.0" fitWidth="45.0" layoutX="186.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/search.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="searchTXF" alignment="BASELINE_LEFT" layoutX="25.0" layoutY="11.0" prefHeight="25.0" prefWidth="145.0" promptText="search" />
+      <ImageView fx:id="loignBTN" fitHeight="31.0" fitWidth="33.0" layoutX="474.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/login2.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

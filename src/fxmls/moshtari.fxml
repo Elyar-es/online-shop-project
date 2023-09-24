@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Customer.moshtari">
+   <children>
+      <AnchorPane fx:id="panelanchor" layoutX="14.0" layoutY="57.0" prefHeight="477.0" prefWidth="237.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="477.0" prefWidth="237.0" style="-fx-background-color: #0A4969;">
+               <children>
+                  <Button fx:id="marketbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#market" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="market" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/market_icon_144628.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="accountbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#account" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="Account" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="reqBTN" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#req" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="Request Product" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/sold.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="cartbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#cart" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="Cart" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/cart.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="favbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#favorites" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="Favorites" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/favourite.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="purchasedbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#purchased" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="History" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/purchased.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="logoutbtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#logout" prefHeight="68.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" text="Log out" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="238.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane fx:id="anchor" prefHeight="477.0" prefWidth="545.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
